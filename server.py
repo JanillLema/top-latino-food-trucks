@@ -3,7 +3,7 @@ from flask import render_template, Response, request, jsonify, redirect, url_for
 import json
 app = Flask(__name__)
 
-# data
+# food truck data
 food_trucks = [
     {
     "id": 0,
