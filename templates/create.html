@@ -1,0 +1,173 @@
+{% extends "layout.html" %}
+
+{% block scripts %}
+
+<script>
+
+
+</script>
+
+{% endblock %}
+
+{% block content %}
+
+    <div class="row">
+        <div class="col-md-12">
+            <div id="new-entry-verification">
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-6 vertical-center"> 
+            <div class="row">
+                <div class="col-md-1"></div>
+
+                <!--  Create Intro -->
+
+                <div class="col-md-10">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="create-intro">
+                                Add A Food Truck to the Database!  
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img class="vertical-center" id="create-img" src="https://i.ibb.co/RvBJ7X0/food-truck-removebg-preview.png" alt="food truck black and white img">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+
+
+
+        <div class="col-md-6 ">
+
+            <div class="row">
+                <div class="col-md-2"></div>
+
+                <div class="col-md-8 create-form">
+
+                    <!--  Food Truck Description -->
+                    <div class="row">
+                        <div class="col-md-12 mt-4">
+                            <div class="section-title">
+                                Food Truck Description 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+
+                            <!--  Food Truck Name Input-->
+                            <label for="input-name">Food Truck Name:</label><br>
+                            <input type="text" id="input-name"><br>
+                            <div id="name-warning"></div>
+
+                        </div>
+                        <div class="col-md-6 ">
+
+                            <!--  Img Input -->
+                            <label for="input-img">Image Link:</label><br>
+                            <input type="text" id="input-img"><br>
+                            <div id="img-warning"></div>
+
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12 ">
+
+                            <!--  About Input -->
+                            <label for="input-about">About:</label><br>
+                            <input type="text" id="input-about"><br>
+                            <div id="about-warning"></div>
+
+                        </div>
+                    </div>
+
+                    <!--  Food Truck Location -->
+                    <div class="row">
+                        <div class="col-md-12 mt-4">
+                            <div class="section-title">
+                                Food Truck Location 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+
+                            <!--  State Input -->
+                            <label for="input-state">State:</label><br>
+                            <input type="text" id="input-state"><br>
+                            <div id="state-warning"></div>
+                            
+                        </div>
+                        <div class="col-md-6">
+
+                            <!--  Address Input -->
+                            <label for="input-location">Address:</label><br>
+                            <input type="text" id="input-location"><br>
+                            <div id="location-warning"></div>
+
+                        </div>
+                    </div>
+
+                    <!--  Food Truck Reviews -->
+                    <div class="row">
+                        <div class="col-md-12 mt-4">
+                            <div class="section-title">
+                                Food Truck Reviews
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+
+                            <!--  Review Input-->
+                            <label for="input-review">Review:</label><br>
+                            <input type="text" id="input-review"><br>
+                            <div id="review-warning"></div>
+
+
+                        </div>
+                        <div class="col-md-6">
+                            <!--  Rating Input -->
+                            <label for="input-rating">Rating:</label><br>
+                            <input type="text" id="input-rating"><br>
+                            <div id="rating-warning"></div>
+                        </div>
+                    </div>
+
+                    <!--  Submit Button -->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="submit-div">
+                                <form id="create-form">
+                                    <input type="button" id ="submit-button" value="Submit">
+                                </form>
+                            <div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+
+
+    </div>
+
+{% endblock %}

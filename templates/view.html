@@ -1,0 +1,88 @@
+{% extends "layout.html" %}
+
+{% block scripts %}
+
+<script>
+    var food_truck_data = {{ food_truck_data | tojson }};
+</script>
+
+{% endblock %}
+
+{% block content %}
+
+<div class="row">
+    <div class="col-md-12 mt-5">
+        <div class="truck-name"><div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="important-info"><div>
+    </div>
+</div>
+
+<div class="row">
+
+    <div class="col-md-1"></div>
+
+    <div class="col-md-10">
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="view-img"><div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="about-info"><div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="location-info vertical-center"><div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="location-edit vertical-center"><div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="vertical-center review-title-section"> Here Is What Customers Had to Say: <div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="add-comment vertical-center"><div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="reviews"><div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+
+    </div>
+
+    <div class="col-md-1"></div>
+</div>
+
+
+
+{% endblock %}

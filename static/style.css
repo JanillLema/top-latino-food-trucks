@@ -1,0 +1,249 @@
+/* -------  general use ------- */
+.vertical-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-cont{
+    background-color: whitesmoke;
+}
+
+.nav-bar-color{
+    background-color:mediumslateblue;
+}
+
+/* -------  home page ------- */
+
+/* summary */
+.summary{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: mediumslateblue;
+    margin: 40px;
+}
+
+/* cards */
+.card-image{
+    height: 200px;
+}
+
+.card{
+    margin: 15px;
+}
+
+/* -------  search page ------- */
+
+#num-search-results{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.card-results{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.highlight{
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.results-img{
+    height: 100%;
+}
+
+
+/* -------  create page ------- */
+
+#create-img{
+    width: 100%;
+    display: block;
+}
+
+.create-intro{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.section-title{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#input-about{
+    height: 100px;
+    width: 400px;
+}
+
+.warning-input-border{
+    border: 1px solid #ff0000;
+}
+
+#rating-warning{
+    height: 20px;
+    color: red;
+    font-size: 10px;
+}
+
+#review-warning{
+    height: 20px;
+    color: red;
+    font-size: 10px;
+}
+
+#location-warning{
+    height: 20px;
+    color: red;
+    font-size: 10px;
+}
+
+#state-warning{
+    height: 20px;
+    color: red;
+    font-size: 10px;
+}
+
+#about-warning{
+    height: 20px;
+    color: red;
+    font-size: 10px;
+}
+
+#img-warning{
+    height: 20px;
+    color: red;
+    font-size: 10px;
+}
+
+#name-warning{
+    height: 20px;
+    color: red;
+    font-size: 10px;
+}
+
+#new-entry-verification{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+
+.create-form{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+    margin-bottom: 40px;
+}
+
+.submit-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#submit-button{
+    background-color: gray;
+    color: white;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+
+#new-entry-verification{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* -------  view page ------- */
+
+.food-img{
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.truck-name{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.data-title{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.view-img{
+    width: 600px;
+    margin: auto;
+}
+
+.important-info{
+    font-size: 25px;
+}
+
+.icon{
+    color: blue;
+}
+
+
+.about-title-section{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.about-info{
+    font-size: 20px;
+}
+
+.review-title-section{
+    font-size: 16px;
+    color: gray;
+    margin-top: 40px;
+}
+
+.review{
+    color: gray;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.review-button{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.view-location{
+    font-size: 15px;
+}
+
+.btn-warn{
+    margin-left: 10px;
+
+}
+
+.btn-suc{
+    margin-left: 10px;
+
+}
+
+.comment-remove-btn{
+    color: white;
+    background-color : #FF0000;
+    border-radius: 10px;
+    font-size: 16px;
+    height: 25px;
+}
+
+.btn-undo{
+    margin-bottom: 15px;
+}

@@ -1,0 +1,51 @@
+{% extends "layout.html" %}
+
+{% block scripts %}
+
+<script>
+    var latest_entries = {{ latest_entries | tojson }};
+</script>
+
+{% endblock %}
+
+{% block content %}
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="summary">
+                Welcome! We aim to help today's Latin American food enthusiast on a budget to find top rated food trucks across the U.S.! 
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card-group" id="cards-1">
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card-group" id="cards-2">
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-12">
+        <div class="card-group" id="cards-3">
+            
+        </div>
+    </div>
+</div>
+    
+
+
+
+{% endblock %}
+
+
